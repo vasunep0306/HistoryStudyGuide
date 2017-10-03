@@ -5,6 +5,76 @@
     <meta charset="utf-8">
     <title>HTML5 boilerplate – all you really need…</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: #bbd2c5;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #bbd2c5, #536976);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #bbd2c5, #536976);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        .blink {
+            -webkit-animation: colorchange 20s infinite alternate;
+        }
+
+        @-webkit-keyframes colorchange {
+            0% {
+
+                color: blue;
+            }
+
+            10% {
+
+                color: #8e44ad;
+            }
+
+            20% {
+
+                color: #1abc9c;
+            }
+
+            30% {
+
+                color: #d35400;
+            }
+
+            40% {
+
+                color: blue;
+            }
+
+            50% {
+
+                color: #34495e;
+            }
+
+            60% {
+
+                color: blue;
+            }
+
+            70% {
+
+                color: #2980b9;
+            }
+            80% {
+
+                color: #f1c40f;
+            }
+
+            90% {
+
+                color: #2980b9;
+            }
+
+            100% {
+
+                color: pink;
+            }
+        }
+    </style>
 </head>
 
 <body id="home">
@@ -14,19 +84,22 @@
     </ul>
 
     <div id="EndOfMiddleAges">
-        <h1>Hundred Years War(1337 - 1453)</h1>
+        <h1 class="blink">Hundred Years War(1337 - 1453)</h1>
         <ul>
             <li>During the 1330s England gradually drifted into a state of hostility with France, for which the most obvious reason was the dispute over English rule in Gascony.</li>
+            <li>Tradition dates it from 1337 to 1453</li>
+            <li class="blink">a series of agreements signed between Great Britain and France that marked the end of hundreds of years of intermittent conflict between the two states.</li>
+            <li>Conflict with the ‘ancient enemy’ has shaped the identities of both countries, and memories of the war remain long on both sides of the Channel. </li>
 
         </ul>
 
-        <h1>Edward III's claim to the throne of France</h1>
+        <h1 class="blink">Edward III's claim to the throne of France</h1>
         <ul>
             <li>Isabella of France was the <a href="http://www.canterbury.ac.nz/canterburyroll/prop/france.shtml" target="new">daughter</a> of Philip IV and Joan of Navarre.</li>
             <li> <em>She married Edward II in 1308</em> becoming <strong>Queen Consort</strong> of England.</li>
             <li><mark>After the death of Isabella's three brothers without surviving children</mark>, her cousin, Philip of Valois, became king of France as Philip VI.</li>
             <li>Edward twice attempted to invade France from the north (1339, 1340), but the only result of his campaigns was to reduce him to bankruptcy.</li>
-            <li>The English claimed the right of succession through the female bloodline. <mark>From an English perspective, the crown of France should have passed to Philip III's great-grandson, Edward III of England</mark>, because this was the most direct line of descent; from a French perspective, Philip VI was the rightful  king because women were excluded from succeeding to the French crown.</li>
+            <li>The English claimed the right of succession through the female bloodline. <mark>From an English perspective, the crown of France should have passed to Philip III's great-grandson, Edward III of England</mark>, because this was the most direct line of descent; from a French perspective, Philip VI was the rightful king because women were excluded from succeeding to the French crown.</li>
             <li><img src="http://www.canterbury.ac.nz/canterburyroll/graphics/frenchclaim1.jpg"></li>
         </ul>
 
