@@ -106,3 +106,13 @@ img {
     width: 400px;
     height: auto;
 }
+
+.longbow {
+    font-size: 24px;
+    color: red;
+}
+
+.crossbow {
+    font-size: 24px;
+    color: blue;
+}
