@@ -76,3 +76,28 @@
 #empa {
     color: red;
 }
+
+#poitiers_start {
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+
+
+#caseandpoint:hover {
+    color:azure;
+    font-size: 26px;
+}
+
+#scortched_earth:hover {
+    color:#E25822;
+    font-size: 30px;
+}
+
+.dates:hover {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+#fin:hover {
+    font-size: 50px;
+}
